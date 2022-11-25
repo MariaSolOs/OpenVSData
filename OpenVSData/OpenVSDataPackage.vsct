@@ -12,7 +12,7 @@
         <Icon guid="ImageCatalogGuid" id="OpenFolder" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <Strings>
-          <ButtonText>Open local VS data</ButtonText>
+          <ButtonText>Open VS Data Storage</ButtonText>
         </Strings>
       </Button>
     </Buttons>

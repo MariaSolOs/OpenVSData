@@ -11,7 +11,7 @@ namespace OpenVSData
         public const string Name = "Open VS Data";
         public const string Description = @"Adds a menu command that lets you open the data storage folder of your current VS instance.";
         public const string Language = "en-US";
-        public const string Version = "1.0";
+        public const string Version = "1.0.1";
         public const string Author = "Maria Solano";
         public const string Tags = "storage, data, local";
     }
