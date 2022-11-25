@@ -9,7 +9,7 @@ You can download the extension from the [VS Gallery](https://marketplace.visuals
 After installing the extension, a new command will be available in 
 In Visual Studio's top menu under Tools, a new command is now visible:
 
-![Command button](images/command.png)
+![Command button](Images/command.png)
 
 Clicking the **Open VS Data Storage** button will open the file explorer in the respective location.
 
