@@ -2,8 +2,12 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="94b04aff-4627-4d39-ab5e-0175f201af64" Version="1.0" Language="en-US" Publisher="Maria Solano" />
-        <DisplayName>OpenVSData</DisplayName>
+        <DisplayName>Open VS Data</DisplayName>
         <Description xml:space="preserve">Adds a menu command that lets you open the data storage folder of your current VS instance.</Description>
+        <License>Resources\LICENSE</License>
+        <Icon>Resources\icon.png</Icon>
+        <PreviewImage>Resources\icon.png</PreviewImage>
+        <Tags>storage, data, local</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">

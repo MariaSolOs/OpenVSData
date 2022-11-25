@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+  <Include href="KnownImageIds.vsct" />
+
+  <Commands package="guidOpenVSDataPackage">
+    <Buttons>
+      <Button guid="guidOpenVSDataPackageCmdSet" id="OpenVSDataId" priority="0x8000" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_TOOLS_EXT_TOOLS" />
+        <Icon guid="ImageCatalogGuid" id="OpenFolder" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <Strings>
+          <ButtonText>Open local VS data</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidOpenVSDataPackage" value="{E646C8FE-8FAB-4882-8E04-F8F909EBF8FE}" />
+
+    <GuidSymbol name="guidOpenVSDataPackageCmdSet" value="{43FA9ACB-39B9-47EF-BCED-179B129C8F5C}">
+      <IDSymbol name="OpenVSDataId" value="100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
