@@ -6,7 +6,6 @@ You can download the extension from the [VS Gallery](https://marketplace.visuals
 
 ## Using the extension
 
-After installing the extension, a new command will be available in 
 In Visual Studio's top menu under Tools, a new command is now visible:
 
 ![Command button](Images/command.png)
@@ -14,4 +13,4 @@ In Visual Studio's top menu under Tools, a new command is now visible:
 Clicking the **Open VS Data Storage** button will open the file explorer in the respective location.
 
 ## License
-[Apache 2.0](LICENSE) 
+[Apache 2.0](LICENSE)
